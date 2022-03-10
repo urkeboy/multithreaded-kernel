@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
 	 * the original interrupt routine in the end.
 	 */
 	// Start
-	// cout << "Main starts.\n\n"; // DEBUG
+	cout << "Main starts.\n\n"; // DEBUG
 	// Set new interrupt routine (entry 08h in Interrupt Vector Table)
 	Kernel::inic();
 	// Make system threads (Idle, Main) - stored as static fields in PCB class
@@ -40,13 +40,13 @@ int main(int argc, char** argv) {
 	PCB::running = mainThread;
 	PCB::running->state == RUNNING;
 	// Going to userMain in order to execute user code
-	// cout << "jumping to userMain...\n\n"; // DEBUG
+	cout << "jumping to userMain...\n\n"; // DEBUG
 	// Call userMain function and remember its return value for possible errors
 	int status = userMain(argc, argv);
-	// cout << "\n... returning to main (status=" << status << ")\n"; // DEBUG
+	cout << "\n... returning to main (status=" << status << ")\n"; // DEBUG
 	// Restore old interrupt routine (entry 08h in Interrupt Vector Table)
 	Kernel::restore();
 	// End
-	// cout << "\nMain ends.\n"; // DEBUG
+	cout << "\nMain ends.\n"; // DEBUG
 	return 0;
 }
