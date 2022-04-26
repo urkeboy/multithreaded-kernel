@@ -12,7 +12,7 @@ This project provides a small but fully functional operating system kernel that 
 ```
 📦kernel
  ┃
- ┣ [`threads`](#threads)
+ ┣ <a href="#threads">threads</a> [`threads`](#threads)
  ┃ ┣ wrapper
  ┃   ┣ 📜thread.h
  ┃   ┗ 📜thread.cpp
