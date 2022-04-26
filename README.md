@@ -9,7 +9,7 @@ This project provides a small but fully functional operating system kernel that 
 
 ### Logical Structure
 
-```
+<pre>
 📦kernel
  ┃
  ┣ <a href="#threads">threads</a> [`threads`](#threads)
@@ -55,7 +55,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃
  ┗ subsystem
    ┗ 📜main.cpp
-```
+</pre>
 
 ### Threads
 
