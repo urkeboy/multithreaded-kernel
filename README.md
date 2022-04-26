@@ -9,9 +9,10 @@ This project provides a small but fully functional operating system kernel that 
 
 ### Logical Structure
 
+```
 📦kernel
  ┃
- ┣ [threads](#threads)
+ ┣ [`threads`](#threads)
  ┃ ┣ wrapper
  ┃   ┣ 📜thread.h
  ┃   ┗ 📜thread.cpp
@@ -22,7 +23,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃   ┣ 📜idle.h
  ┃   ┗ 📜idle.cpp
  ┃
- ┣ [semaphores](#semaphores)
+ ┣ [`semaphores`](#semaphores)
  ┃ ┣ wrapper
  ┃   ┣ 📜semaphor.h
  ┃   ┗ 📜semaphor.cpp
@@ -30,7 +31,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃   ┣ 📜kerSem.h
  ┃   ┗ 📜kerSem.cpp
  ┃
- ┣ [events](#events)
+ ┣ [`events`](#events)
  ┃ ┣ wrapper
  ┃   ┣ 📜event.h
  ┃   ┗ 📜event.cpp
@@ -41,7 +42,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃   ┣ 📜IVTEntry.h
  ┃   ┗ 📜IVTEntry.cpp
  ┃
- ┣ [preemption](#preemption)
+ ┣ [`preemption`](#preemption)
  ┃ ┣ locks
  ┃   ┣ 📜lock.h
  ┃   ┗ 📜lock.cpp
@@ -54,6 +55,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃
  ┗ subsystem
    ┗ 📜main.cpp
+```
 
 ### Threads
 
