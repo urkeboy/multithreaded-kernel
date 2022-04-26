@@ -12,7 +12,7 @@ This project provides a small but fully functional operating system kernel that 
 <pre>
 📦kernel
  ┃
- ┣ <a href="#threads">threads</a> [`threads`](#threads)
+ ┣ <a href="#threads">threads</a>
  ┃ ┣ wrapper
  ┃   ┣ 📜thread.h
  ┃   ┗ 📜thread.cpp
@@ -23,7 +23,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃   ┣ 📜idle.h
  ┃   ┗ 📜idle.cpp
  ┃
- ┣ [`semaphores`](#semaphores)
+ ┣ <a href="#semaphores">semaphores</a>
  ┃ ┣ wrapper
  ┃   ┣ 📜semaphor.h
  ┃   ┗ 📜semaphor.cpp
@@ -31,7 +31,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃   ┣ 📜kerSem.h
  ┃   ┗ 📜kerSem.cpp
  ┃
- ┣ [`events`](#events)
+ ┣ <a href="#events">events</a>
  ┃ ┣ wrapper
  ┃   ┣ 📜event.h
  ┃   ┗ 📜event.cpp
@@ -42,7 +42,7 @@ This project provides a small but fully functional operating system kernel that 
  ┃   ┣ 📜IVTEntry.h
  ┃   ┗ 📜IVTEntry.cpp
  ┃
- ┣ [`preemption`](#preemption)
+ ┣ <a href="#preemption">preemption</a>
  ┃ ┣ locks
  ┃   ┣ 📜lock.h
  ┃   ┗ 📜lock.cpp
